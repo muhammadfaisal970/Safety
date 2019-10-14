@@ -1,0 +1,4 @@
+#Mon Oct 14 12:39:04 PKT 2019
+base.0=C\:\\Users\\Faisal\\Desktop\\Project\\Women-Safety-App\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

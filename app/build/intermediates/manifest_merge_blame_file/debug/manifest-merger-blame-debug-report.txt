@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prabhu.womensafetyapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="8"
+8-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="18" />
+9-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:9:5-79
+11-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:9:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:10:5-67
+12-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:10:22-64
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:11:5-67
+13-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:11:22-64
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+14-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:12:5-13:23
+14-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:12:22-72
+15    </uses-permission>
+16
+17    <application
+17-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:15:5-66:19
+18        android:allowBackup="true"
+18-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:17:9-35
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:18:9-45
+21        android:label="@string/app_name"
+21-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:19:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:20:9-40
+24        <activity
+24-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:22:9-30:20
+25            android:name="com.prabhu.womensafetyapp.MainActivity"
+25-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:23:13-66
+26            android:label="@string/app_name" >
+26-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:24:13-45
+27            <intent-filter>
+27-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:25:13-29:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:26:17-69
+28-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:26:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:28:17-77
+30-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:28:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:31:9-38:20
+34            android:name="com.prabhu.womensafetyapp.Register"
+34-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:32:13-62
+35            android:label="@string/title_activity_register"
+35-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:33:13-60
+36            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+36-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:34:13-80
+37            <meta-data
+37-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:35:13-37:74
+38                android:name="android.support.PARENT_ACTIVITY"
+38-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:36:17-63
+39                android:value="com.prabhu.womensafetyapp.MainActivity" />
+39-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:37:17-71
+40        </activity>
+41        <activity
+41-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:39:9-46:20
+42            android:name="com.prabhu.womensafetyapp.Display"
+42-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:40:13-61
+43            android:label="@string/title_activity_display"
+43-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:41:13-59
+44            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+44-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:42:13-80
+45            <meta-data
+45-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:35:13-37:74
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:36:17-63
+47                android:value="com.prabhu.womensafetyapp.MainActivity" />
+47-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:37:17-71
+48        </activity>
+49
+50        <service android:name="com.prabhu.womensafetyapp.BgService" />
+50-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:47:9-71
+50-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:47:18-68
+51
+52        <activity
+52-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:48:9-55:20
+53            android:name="com.prabhu.womensafetyapp.Instructions"
+53-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:49:13-66
+54            android:label="@string/title_activity_instructions"
+54-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:50:13-64
+55            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+55-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:51:13-80
+56            <meta-data
+56-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:35:13-37:74
+57                android:name="android.support.PARENT_ACTIVITY"
+57-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:36:17-63
+58                android:value="com.prabhu.womensafetyapp.MainActivity" />
+58-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:37:17-71
+59        </activity>
+60        <activity
+60-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:56:9-63:20
+61            android:name="com.prabhu.womensafetyapp.Verify"
+61-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:57:13-60
+62            android:label="@string/title_activity_verify"
+62-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:58:13-58
+63            android:parentActivityName="com.prabhu.womensafetyapp.MainActivity" >
+63-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:59:13-80
+64            <meta-data
+64-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:35:13-37:74
+65                android:name="android.support.PARENT_ACTIVITY"
+65-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:36:17-63
+66                android:value="com.prabhu.womensafetyapp.MainActivity" />
+66-->C:\Users\Faisal\Desktop\Project\Women-Safety-App\app\src\main\AndroidManifest.xml:37:17-71
+67        </activity>
+68    </application>
+69
+70</manifest>
